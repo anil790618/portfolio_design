@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #878e99; */
+}
+
+body {
+    background-color: #363a42
+}
+
+.header {
+    background-image: url(../images/bg-image-1.jpg);
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.buy {
+    background-color: #ff014f;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.buy:hover {
+    transform: translateY(-5px);
+    transition: .5s ease;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500 !important;
+}
+p{
+    /* font-family: ; */
+    font-weight: 400;
+}
+
+.icon {  
+    font-size: 20px;
+    color: white !important; 
+    display: flex;
+    flex-flow: row wrap;/* footer ---------------- */
+  }
+    .footerc {
+        background: #363a42;
+    }
+    
+    .pcolor {
+        color: #ff014f;
+    }
+    
+    .iconfooter {
+        display: inline-block;
+        font-size: 25px;
+        padding: 10px 15px;
+        margin: 20px 0px 0px 10px;
+        border-radius: 10px;
+        background-color: #363a42;
+        box-shadow: 1px 1px 5px rgb(34, 28, 28);
+    }
+    
+    .iconfooter:hover {
+        transform: translateY(-5px);
+        transition: .5s ease;
+    }
+    
+    .footer:hover {
+        width: 50px;
+        height: 20px;
+        padding-bottom: px;
+        /* color: #ff014f; */
+        background-color: #ff014f;
+    }
+    .our11{
+        color: white;background-color: #363a42;
+        box-shadow: 2px 2px 5px rgb(24, 22, 22);
+        /* margin: 10px; */
+        padding: 25px;
+        /* width:400px; */
+        border-radius: 10px;
+    }
+    /* About me  */
+    .hire11{
+        color: #ff014f;
+    }
+    .about11{
+        font-weight:bold;
+        font-size: 65px;
+        color: white;
+    }
+    .hire1122{
+        color: white;
+        font-size: 20px;
+    }
+    /* About me End */
+    /* visit  */
+    .visit11{
+        color: #ff014f;
+    }
+    .visit1122{
+        font-weight:bold;
+        font-size: 65px;
+        color: white;
+    }
+    /* visit End */
+    /* What  */
+    .fea11{
+        color: #ff014f;
+    }
+    .what1122{
+        font-weight:bold;
+        font-size: 65px;
+        color: white;
+    }
+    /* What End */
+    .best1122{
+        font-weight:bold;
+        font-size: 65px;
+        color: white;
+    }
+    .look11{
+        color: #ff014f;
+    }
+    .provice11{
+        font-size: 45px;
+        color: white;
+    }
+    .pro1122{
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+    }
+    .row11{
+        border-radius: 10px;
+        color: white;background-color: #363a42;
+        box-shadow: 2px 2px 5px rgb(24, 22, 22);
+    }
+    .client{
+        color: #ff014f;
+        text-align: center;
+    }
+    .our1122{
+        font-weight:bold;
+        font-size: 65px;
+        color: white;
+        text-align: center;
+    }
+ 
+
+.in:hover {
+    transform: translateY(-5px);
+    transition: .5s ease;
+}
+
+
+.in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(79, 79, 79);
+    margin: 0 0 0 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgb(34, 28, 28);
+}
+
+#img-about1:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+}
+
+.img-about {
+    border: 20px solid #363a42;
+    border-radius: 15px;
+    /* width: 440px; */
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+}
+
+.btn1 {
+    background-color: #363a42;
+    color: #ff014f;
+    border: none;
+    padding: 15px 20px;
+    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn1:hover {
+    transform: translateY(-5px);
+    transition: .5s ease;
+    box-shadow: 5px 5px 10px rgb(36, 36, 36);
+}
+
+.imgMyskill {
+    /* width: 300px; */
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #363a42;
+    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+    border-radius: 10px;
+}
+
+.imgMyskill:hover {
+    transform: translateY(-5px);
+    transition: .5s ease;
+
+}
+
+.imgWhat { 
+    min-height: 300px; 
+    background-color: #363a42;
+    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 25px;
+    margin: auto;
+}
+
+.icon11 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #ff014f;
+}
+
+.imgVisit {
+    max-width: 300px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #363a42;
+    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+    border-radius: 10px;
+}
+
+.imgVisit:hover {
+    transform: translateY(-5px);
+    transition: .5s ease;
+}
+.imgTestimonial {
+    /* width: 300px; */
+    /* height: 200px; */
+    background-color: #363a42;
+    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.withme {
+    background-color: #363a42;
+}
+
+.withme {
+    color: white;
+    border: 20px solid #363a42;
+    border-radius: 15px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(79, 79, 79);
+}
+
+.withme img {
+    border-radius: 10px;
+}
+
+.withme img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 1s;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+/* footer ---------------- */
+.footer {
+    background: #363a42;
+    padding: 10px;
+    /* display: block; */
+}
+
+.pcolor {
+    color: #ff014f;
+}
+
+ 
+.footer:hover {
+    /* width: 50px; */
+    /* height: 20px; */
+    /* padding-bottom: px; */
+    /* color: #ff014f; */
+    background-color: #ff014f;
+}
+ 
+/* About me  */
+.hire11{
+    color: #ff014f;
+}
+ 
+ 
+.visit11{
+    color: #ff014f;
+} 
+.fea11{
+    color: #ff014f;
+} 
+ 
+.look11{
+    color: #ff014f;
+}
+  
+.client{
+    color: #ff014f;
+    text-align: center;
+}
+.our1122{
+    font-weight:bold;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
